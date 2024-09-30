@@ -28,8 +28,14 @@ node_volume_size = "50"
 
 node_volume_type = "gp3"
 
-cluster_on_demand_min_size = ""
+cluster_on_demand_min_size="2"
 
-cluster_on_demand_max_size = ""
+cluster_on_demand_max_size="4"
 
-cluster_on_demand_desired_size = ""
+cluster_on_demand_desired_size="3"
+
+cluster_spot_min_size="2"
+
+cluster_spot__max_size="4"
+
+cluster_spot__desired_size="3"

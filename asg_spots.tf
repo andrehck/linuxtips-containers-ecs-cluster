@@ -12,8 +12,8 @@ resource "aws_autoscaling_group" "spots" {
 
 
   launch_template {
-    id      = aws_launch_template.on_demand.id
-    version = aws_launch_template.on_demand.latest_version
+    id      = aws_launch_template.spots.id
+    version = aws_launch_template.spots.latest_version
   }
 
 
